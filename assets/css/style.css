@@ -1,0 +1,79 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+
+}
+.navbar{
+	box-shadow: 2px 2px 5px #3292a6;
+	opacity:.9;
+	background: #fff;
+}
+.navbar .nav-item{
+	font-size: 1.4rem;
+	padding-right: 20px;
+}
+.navbar .nav-item:last-child{
+	padding-right: 0px;
+}
+nav .nav-item .nav-link:hover{
+	color: #3292a6;
+}
+#home{
+	background: url('../img/mountains.jpg');
+	min-height: 600px;
+	/*margin-top: 92px;*/
+}
+#home .overlay{
+	background: rgba(50, 146, 156, 0.7);
+	min-height: 600px;
+}
+#home a{
+	border-radius: 0;
+}
+#subscribe{
+	background: #252525;
+}
+#subscribe input{
+	border-radius: 0;
+}
+#subscribe button{
+	border-radius: 0;
+}
+#boxes .border-primary{
+	border-radius: 0px;
+}
+/*#subscribe .primary{
+	background: #3292A6;
+}*/
+#Meet-The-Authors img{
+	margin-top: -50px;
+}
+#Meet-The-Authors .card{
+	border-radius: 0;
+}
+#Meet-The-Authors .card:hover{
+	background: #3292A6;
+	color: #fff;
+}
+#Meet-The-Authors .fab{
+	font-size: 25px;
+}
+#Meet-The-Authors .card:hover .fab{
+	color: #fff;
+}
+@media screen and (max-width: 991px){
+	.no{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px){
+	#home h1{
+		font-size: 5rem;
+	}
+}
+@media screen and (max-width: 575px){
+	#home h1{
+		font-size: 4rem;
+	}
+}
